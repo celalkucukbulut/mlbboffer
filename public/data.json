@@ -1,0 +1,1184 @@
+{
+    "heroes": [
+        {
+            "id": 1,
+            "name": "Miya",
+            "lanes": [1],
+            "types": [1],
+            "counters": [3,88,54,102,63,27,15],
+            "counteredBy": [52,101],
+            "teamMates": [6,70]
+          },
+          {
+            "id": 2,
+            "name": "Balmond",
+            "lanes": [3],
+            "types": [3],
+            "counters": [15,99,117,58,3,18],
+            "counteredBy": [53,43],
+            "teamMates": [55,14]
+          },
+        {
+            "id": 3,
+            "name": "Saber",
+            "lanes": [4],
+            "types": [4],
+            "counters": [24,43,42,84,122,18,15],
+            "counteredBy": [34,76],
+            "teamMates": [75,33]
+          },
+        {
+            "id": 4,
+            "name": "Alice",
+            "lanes": [2,3],
+            "types": [2],
+            "counters": [104,62,93,118,78,91,61],
+            "counteredBy": [87,58],
+            "teamMates": [2,85]
+          },
+          {
+            "id": 5,
+            "name": "Nana",
+            "lanes": [5,2],
+            "types": [2],
+            "counters": [20,46,15,3,90,75,15],
+            "counteredBy": [16,24],
+            "teamMates": [14,10]
+          },
+          {
+            "id": 6,
+            "name": "Tigreal",
+            "lanes": [5],
+            "types": [5],
+            "counters": [7,34,90,18,10,23],
+            "counteredBy": [60,89],
+            "teamMates": [115,105]
+          },
+        {
+            "id": 7,
+            "name": "Alucard",
+            "lanes": [3,4],
+            "types": [3],
+            "counters": [30,24,27,47,122,42,109],
+            "counteredBy": [10,32],
+            "teamMates": [41,115]
+          },
+          {
+            "id": 8,
+            "name": "Karina",
+            "lanes": [4],
+            "types": [4],
+            "counters": [89,24,20,51,84,18,60],
+            "counteredBy": [9,78],
+            "teamMates": [6,76]
+          },
+        {
+            "id": 9,
+            "name": "Akai",
+            "lanes": [5],
+            "types": [5],
+            "counters": [90,45,93,15,113,46],
+            "counteredBy": [5,48],
+            "teamMates": [3,15]
+          },
+          {
+            "id": 10,
+            "name": "Franco",
+            "lanes": [5],
+            "types": [5],
+            "counters": [48,55,17,112,45,66,34,18,102],
+            "counteredBy": [89,77],
+            "teamMates": [66,8,100]
+          },
+        {
+            "id": 11,
+            "name": "Bane",
+            "lanes": [3],
+            "types": [3],
+            "counters": [78,70,76,87,62,49],
+            "counteredBy": [66,115],
+            "teamMates": [6,96]
+          },
+          {
+            "id": 12,
+            "name": "Bruno",
+            "lanes": [1],
+            "types": [1],
+            "counters": [89,69,102,17,118,60,1],
+            "counteredBy": [41,117],
+            "teamMates": [10,78]
+          },
+          {
+            "id": 13,
+            "name": "Clint",
+            "lanes": [1],
+            "types": [1],
+            "counters": [20,70,1,62,41,31],
+            "counteredBy": [114,40],
+            "teamMates": [14,55]
+          },
+        {
+            "id": 14,
+            "name": "Rafaela",
+            "lanes": [5],
+            "types": [6],
+            "counters": [48,62,24,49,53,88,99],
+            "counteredBy": [84,21],
+            "teamMates": [22,37]
+          },
+          {
+            "id": 15,
+            "name": "Eudora",
+            "lanes": [2],
+            "types": [2],
+            "counters": [43,24,16,42,110,118,89,31],
+            "counteredBy": [117],
+            "teamMates": [32,54]
+          },
+          {
+            "id": 16,
+            "name": "Zilong",
+            "lanes": [3,4],
+            "types": [3],
+            "counters": [69,83,17,97,55,18,86],
+            "counteredBy": [10,5],
+            "teamMates": [52,60]
+          },
+          {
+            "id": 17,
+            "name": "Fanny",
+            "lanes": [4],
+            "types": [4],
+            "counters": [69,104,20,101,13,40,43],
+            "counteredBy": [62,78],
+            "teamMates": [19,41]
+          },
+        {
+            "id": 18,
+            "name": "Layla",
+            "lanes": [1],
+            "types": [1],
+            "counters": [48,14,76,33,125,6,70],
+            "counteredBy": [8,84],
+            "teamMates": [74,70]
+          },
+        {
+            "id": 19,
+            "name": "Minotaur",
+            "lanes": [5],
+            "types": [5],
+            "counters": [78,46,32,65,54,103,116],
+            "counteredBy": [18,53],
+            "teamMates": [79,114]
+          },
+        {
+            "id": 20,
+            "name": "Lolita",
+            "lanes": [5],
+            "types": [6],
+            "counters": [33,87,12,112,61,71],
+            "counteredBy": [84,103],
+            "teamMates": [60,18]
+          },
+          {
+            "id": 21,
+            "name": "Hayabusa",
+            "lanes": [4],
+            "types": [4],
+            "counters": [69,23,71,79,119,61,91],
+            "counteredBy": [10,62],
+            "teamMates": [37,28]
+          },
+          {
+            "id": 22,
+            "name": "Freya",
+            "lanes": [3],
+            "types": [3],
+            "counters": [76,34,20,102,73,59,104],
+            "counteredBy": [80,58],
+            "teamMates": [70,41]
+          },
+        {
+            "id": 23,
+            "name": "Gord",
+            "lanes": [2,3],
+            "types": [2],
+            "counters": [99,20,117,34,19],
+            "counteredBy": [17,47],
+            "teamMates": [49,70]
+          },
+          {
+            "id": 24,
+            "name": "Natalia",
+            "lanes": [4],
+            "types": [4],
+            "counters": [69,115,23,48,93,119,43],
+            "counteredBy": [74,62],
+            "teamMates": [30,38]
+          },
+        {
+            "id": 25,
+            "name": "Kagura",
+            "lanes": [3],
+            "types": [2],
+            "counters": [69,87,20,93,60,18,15],
+            "counteredBy": [118,58],
+            "teamMates": [93,6]
+          },
+          {
+            "id": 26,
+            "name": "Chou",
+            "lanes": [5,3],
+            "types": [3],
+            "counters": [69,83,121,87,17,82,28],
+            "counteredBy": [53,52],
+            "teamMates": [55,14]
+          },
+        {
+            "id": 27,
+            "name": "Sun",
+            "lanes": [3],
+            "types": [3],
+            "counters": [88,54,42,53,15,10,41],
+            "counteredBy": [29,7],
+            "teamMates": [70,6]
+          },
+          {
+            "id": 28,
+            "name": "Alpha",
+            "lanes": [3],
+            "types": [3],
+            "counters": [106,35,15,99,3,18,121],
+            "counteredBy": [26,56],
+            "teamMates": [38,63]
+          },
+        {
+            "id": 29,
+            "name": "Ruby",
+            "lanes": [5,3],
+            "types": [5],
+            "counters": [27,45,88,118,71,64,80],
+            "counteredBy": [89,43],
+            "teamMates": [52,75]
+          },
+        {
+            "id": 30,
+            "name": "Yi Sun Shin",
+            "lanes": [1,4],
+            "types": [1],
+            "counters": [78,97,48,63,29,59,82],
+            "counteredBy": [10,62],
+            "teamMates": [28,98]
+          },
+          {
+            "id": 31,
+            "name": "Moskov",
+            "lanes": [1],
+            "types": [1],
+            "counters": [69,119,81,115,118,72,2],
+            "counteredBy": [47,24],
+            "teamMates": [117,41]
+          },
+        {
+            "id": 32,
+            "name": "Johnson",
+            "lanes": [5],
+            "types": [5],
+            "counters": [18,16,24,3,15,7,16],
+            "counteredBy": [73,25],
+            "teamMates": [46,75]
+          },
+        {
+            "id": 33,
+            "name": "Cyclops",
+            "lanes": [5,2],
+            "types": [2],
+            "counters": [89,118,24,84,26,82,28],
+            "counteredBy": [47,7,25],
+            "teamMates": [70,74]
+          },
+          {
+            "id": 34,
+            "name": "Estes",
+            "lanes": [5],
+            "types": [6],
+            "counters": [48,30,53,64,123,57,4],
+            "counteredBy": [3,15],
+            "teamMates": [53,60]
+          },
+        {
+            "id": 35,
+            "name": "Hilda",
+            "lanes": [5,3],
+            "types": [3],
+            "counters": [30,84,48,79,122,16,18],
+            "counteredBy": [72,59],
+            "teamMates": [14,10,93]
+          },
+          {
+            "id": 36,
+            "name": "Aurora",
+            "lanes": [5,2],
+            "types": [2],
+            "counters": [20,46,90,19,94,67,72,82],
+            "counteredBy": [84,75,80],
+            "teamMates": [121,22,40]
+          },
+          {
+            "id": 37,
+            "name": "Lapu Lapu",
+            "lanes": [3,4],
+            "types": [3],
+            "counters": [27,93,124,45,34,18,15],
+            "counteredBy": [53,31],
+            "teamMates": [6,93]
+          },
+        {
+            "id": 38,
+            "name": "Vexana",
+            "lanes": [2],
+            "types": [2],
+            "counters": [104,50,21,124,46,18,43,115],
+            "counteredBy": [3,109,8],
+            "teamMates": [93,105]
+          },
+          {
+            "id": 39,
+            "name": "Roger",
+            "lanes": [1,3],
+            "types": [3],
+            "counters": [42,51,15,47,97,60,46],
+            "counteredBy": [74,78],
+            "teamMates": [52,38]
+          },
+          {
+            "id": 40,
+            "name": "Karrie",
+            "lanes": [1],
+            "types": [1],
+            "counters": [87,117,104,49,4,6],
+            "counteredBy": [115,18,5],
+            "teamMates": [3,109]
+          },
+        {
+            "id": 41,
+            "name": "Gatotkaca",
+            "lanes": [5,3],
+            "types": [5],
+            "counters": [46,77,1,32,16,18,94],
+            "counteredBy": [48,89],
+            "teamMates": [25,66]
+          },
+          {
+            "id": 42,
+            "name": "Harley",
+            "lanes": [4],
+            "types": [4],
+            "counters": [69,23,57,4,101,91,121],
+            "counteredBy": [20,59],
+            "teamMates": [9,78]
+          },
+          {
+            "id": 43,
+            "name": "Irithel",
+            "lanes": [1],
+            "types": [1],
+            "counters": [87,107,97,79,27,1,28],
+            "counteredBy": [77,90],
+            "teamMates": [57,49]
+          },
+          {
+            "id": 44,
+            "name": "Grock",
+            "lanes": [5],
+            "types": [5],
+            "counters": [9,21,57,93,46,82,37],
+            "counteredBy": [119,110],
+            "teamMates": [31,99]
+          },
+        {
+            "id": 45,
+            "name": "Argus",
+            "lanes": [3],
+            "types": [3],
+            "counters": [3,74,120,109,69,23,36],
+            "counteredBy": [41,6],
+            "teamMates": [112,14]
+          },
+          {
+            "id": 46,
+            "name": "Odette",
+            "lanes": [2],
+            "types": [2],
+            "counters": [24,123,76,102,33,18,43],
+            "counteredBy": [19,111],
+            "teamMates": [32,54]
+          },
+          {
+            "id": 47,
+            "name": "Lancelot",
+            "lanes": [4],
+            "types": [4],
+            "counters": [87,93,20,94,83,91,52],
+            "counteredBy": [74,106],
+            "teamMates": [93,6]
+          },
+        {
+            "id": 48,
+            "name": "Diggie",
+            "lanes": [5],
+            "types": [6],
+            "counters": [93,125,40,75,57,93,20,6],
+            "counteredBy": [84,109],
+            "teamMates": [18,1]
+          },
+        {
+            "id": 49,
+            "name": "Hylos",
+            "lanes": [5],
+            "types": [5],
+            "counters": [15,117,78,3,41,18,23],
+            "counteredBy": [40,53],
+            "teamMates": [82,74]
+          },
+          {
+            "id": 50,
+            "name": "Zhask",
+            "lanes": [2],
+            "types": [2],
+            "counters": [20,125,113,42,4,64,103],
+            "counteredBy": [52,91],
+            "teamMates": [70,20]
+          },
+          {
+            "id": 51,
+            "name": "Helcurt",
+            "lanes": [4],
+            "types": [4],
+            "counters": [69,18,115,11,71,61,66],
+            "counteredBy": [117,70,41],
+            "teamMates": [6,81,82]
+          },
+          {
+            "id": 52,
+            "name": "Pharsa",
+            "lanes": [2],
+            "types": [2],
+            "counters": [20,22,60,77,70,18,115],
+            "counteredBy": [10,16,74],
+            "teamMates": [93,10]
+          },
+          {
+            "id": 53,
+            "name": "Lesley",
+            "lanes": [1],
+            "types": [1],
+            "counters": [65,70,41,82,89,60,15],
+            "counteredBy": [72,117],
+            "teamMates": [6,41]
+          },
+        {
+            "id": 54,
+            "name": "Jawhead",
+            "lanes": [5,3],
+            "types": [3],
+            "counters": [24,16,120,17,3,15],
+            "counteredBy": [111,72],
+            "teamMates": [46,70]
+          },
+        {
+            "id": 55,
+            "name": "Angela",
+            "lanes": [5],
+            "types": [6],
+            "counters": [4,48,53,2,83,59,70],
+            "counteredBy": [84,42],
+            "teamMates": [47,109]
+          },
+          {
+            "id": 56,
+            "name": "Gusion",
+            "lanes": [4],
+            "types": [4],
+            "counters": [69,44,83,11,57,18,60],
+            "counteredBy": [10,62],
+            "teamMates": [38,52]
+          },
+        {
+            "id": 57,
+            "name": "Valir",
+            "lanes": [2],
+            "types": [2],
+            "counters": [117,99,49,2,6,4],
+            "counteredBy": [47,17],
+            "teamMates": [98,95]
+          },
+          {
+            "id": 58,
+            "name": "Martis",
+            "lanes": [4,3],
+            "types": [3],
+            "counters": [90,15,113,120,75,18,46],
+            "counteredBy": [72,117],
+            "teamMates": [28,98]
+          },
+        {
+            "id": 59,
+            "name": "Uranus",
+            "lanes": [5,3],
+            "types": [5],
+            "counters": [106,30,41,70,9,6,10],
+            "counteredBy": [18,53],
+            "teamMates": [105,60]
+          },
+          {
+            "id": 60,
+            "name": "Hanabi",
+            "lanes": [1],
+            "types": [1],
+            "counters": [94,1,117,99,9,6,70],
+            "counteredBy": [47,16],
+            "teamMates": [92,93]
+          },
+        {
+            "id": 61,
+            "name": "Change",
+            "lanes": [2,3],
+            "types": [2],
+            "counters": [48,119,88,47,15,46],
+            "counteredBy": [42,20],
+            "teamMates": [41,6]
+          },
+          {
+            "id": 62,
+            "name": "Kaja",
+            "lanes": [5,3],
+            "types": [6],
+            "counters": [88,105,96,45,103,17,47],
+            "counteredBy": [18,52],
+            "teamMates": [15,109]
+          },
+          {
+            "id": 63,
+            "name": "Selena",
+            "lanes": [5,4],
+            "types": [4],
+            "counters": [121,92,105,69,93,23,18],
+            "counteredBy": [60,89],
+            "teamMates": [115,105]
+          },
+        {
+            "id": 64,
+            "name": "Aldous",
+            "lanes": [3],
+            "types": [3],
+            "counters": [69,119,115,41,70,16,67],
+            "counteredBy": [58,85],
+            "teamMates": [77,12]
+          },
+          {
+            "id": 65,
+            "name": "Claude",
+            "lanes": [1,2],
+            "types": [1],
+            "counters": [121,20,69,23,114,38,112],
+            "counteredBy": [15,10],
+            "teamMates": [55,76]
+          },
+        {
+            "id": 66,
+            "name": "Vale",
+            "lanes": [5,2],
+            "types": [2],
+            "counters": [62,46,11,99,114,82,35],
+            "counteredBy": [21,84],
+            "teamMates": [20,70]
+          },
+          {
+            "id": 67,
+            "name": "Leomord",
+            "lanes": [3],
+            "types": [3],
+            "counters": [76,34,30,109,24,46,52,101,91],
+            "counteredBy": [106,10,9,5],
+            "teamMates": [52,38]
+          },
+        {
+            "id": 68,
+            "name": "Lunox",
+            "lanes": [2,3],
+            "types": [2],
+            "counters": [87,59,104,4,81,101,86],
+            "counteredBy": [122,84],
+            "teamMates": [10,19]
+          },
+          {
+            "id": 69,
+            "name": "Hanzo",
+            "lanes": [4],
+            "types": [4],
+            "counters": [48,11,99,101,92,115,121],
+            "counteredBy": [84,17],
+            "teamMates": [93,6]
+          },
+        {
+            "id": 70,
+            "name": "Belerick",
+            "lanes": [5,3],
+            "types": [5],
+            "counters": [114,1,32,90,77,47,84],
+            "counteredBy": [57,115],
+            "teamMates": [107,1]
+          },
+          {
+            "id": 71,
+            "name": "Kimmy",
+            "lanes": [1,2],
+            "types": [1],
+            "counters": [27,41,121,2,69,49,92],
+            "counteredBy": [24,109],
+            "teamMates": [14,55]
+          },
+        {
+            "id": 72,
+            "name": "Thamuz",
+            "lanes": [3],
+            "types": [3],
+            "counters": [7,4,113,88,90,16,27],
+            "counteredBy": [40,43],
+            "teamMates": [55,14]
+          },
+          {
+            "id": 73,
+            "name": "Harith",
+            "lanes": [1,2],
+            "types": [2],
+            "counters": [71,69,59,51,25,70,32],
+            "counteredBy": [119,52],
+            "teamMates": [74,19]
+          },
+        {
+            "id": 74,
+            "name": "Minsitthar",
+            "lanes": [5,3],
+            "types": [3],
+            "counters": [22,110,73,120,58,97,120],
+            "counteredBy": [16,108],
+            "teamMates": [114,60]
+          },
+          {
+            "id": 75,
+            "name": "Kadita",
+            "lanes": [2],
+            "types": [2],
+            "counters": [20,69,87,121,115,15,36],
+            "counteredBy": [13,105],
+            "teamMates": [93,6]
+          },
+          {
+            "id": 76,
+            "name": "Faramis",
+            "lanes": [5,2],
+            "types": [6],
+            "counters": [104,20,93,44,102,3,15],
+            "counteredBy": [119,52],
+            "teamMates": [67,58]
+          },
+        {
+            "id": 77,
+            "name": "Badang",
+            "lanes": [3],
+            "types": [3],
+            "counters": [125,17,27,64,14,18,46],
+            "counteredBy": [89,84],
+            "teamMates": [6,96]
+          },
+        {
+            "id": 78,
+            "name": "Khufra",
+            "lanes": [5,3],
+            "types": [5],
+            "counters": [110,80,87,71,22,118,47],
+            "counteredBy": [117,104],
+            "teamMates": [15,52]
+          },
+          {
+            "id": 79,
+            "name": "Granger",
+            "lanes": [1,2,4],
+            "types": [1],
+            "counters": [8,70,109,116,114,61,91],
+            "counteredBy": [3,21],
+            "teamMates": [10,62]
+          },
+        {
+            "id": 80,
+            "name": "Guinevere",
+            "lanes": [3],
+            "types": [3],
+            "counters": [59,22,28,86,104,16,90],
+            "counteredBy": [77,26],
+            "teamMates": [10,49]
+          },
+          {
+            "id": 81,
+            "name": "Esmeralda",
+            "lanes": [2,3],
+            "types": [2],
+            "counters": [48,20,22,64,102,9],
+            "counteredBy": [40,53],
+            "teamMates": [93,6]
+          },
+        {
+            "id": 82,
+            "name": "Terizla",
+            "lanes": [3],
+            "types": [3],
+            "counters": [77,45,94,27,15,16],
+            "counteredBy": [120,53],
+            "teamMates": [41,93]
+          },
+          {
+            "id": 83,
+            "name": "XBorg",
+            "lanes": [5,3,4],
+            "types": [3],
+            "counters": [99,82,124,2,87,108],
+            "counteredBy": [58,85],
+            "teamMates": [8,58]
+          },
+          {
+            "id": 84,
+            "name": "Ling",
+            "lanes": [4],
+            "types": [4],
+            "counters": [69,93,104,71,23,18,60],
+            "counteredBy": [15,54],
+            "teamMates": [55,78]
+          },
+          {
+            "id": 85,
+            "name": "Dyrroth",
+            "lanes": [3,4],
+            "types": [3],
+            "counters": [81,4,59,7,55,23,60],
+            "counteredBy": [38,70],
+            "teamMates": [10,59]
+          },
+        {
+            "id": 86,
+            "name": "Lylia",
+            "lanes": [2],
+            "types": [2],
+            "counters": [87,82,92,99,28,49],
+            "counteredBy": [122,84],
+            "teamMates": [19,10]
+          },
+          {
+            "id": 87,
+            "name": "Baxia",
+            "lanes": [5],
+            "types": [5],
+            "counters": [62,104,50,101,48,61,90],
+            "counteredBy": [40,53],
+            "teamMates": [72,28]
+          },
+        {
+            "id": 88,
+            "name": "Masha",
+            "lanes": [3,4],
+            "types": [3],
+            "counters": [120,15,24,63,3,121,18],
+            "counteredBy": [123,72],
+            "teamMates": [55,14]
+          },
+          {
+            "id": 89,
+            "name": "Wanwan",
+            "lanes": [1],
+            "types": [1],
+            "counters": [113,121,93,101,104,117,96],
+            "counteredBy": [47,23],
+            "teamMates": [10,70]
+          },
+          {
+            "id": 90,
+            "name": "Silvanna",
+            "lanes": [5,3],
+            "types": [3],
+            "counters": [55,27,109,16,59,18,57],
+            "counteredBy": [58],
+            "teamMates": [93,6]
+          },
+        {
+            "id": 91,
+            "name": "Cecilion",
+            "lanes": [2],
+            "types": [2],
+            "counters": [20,99,62,82,106,82,2],
+            "counteredBy": [84,17],
+            "teamMates": [92,19]
+          },
+        {
+            "id": 92,
+            "name": "Carmilla",
+            "lanes": [5],
+            "types": [6],
+            "counters": [94,99,90,117,70,85,37],
+            "counteredBy": [60,89],
+            "teamMates": [91,36]
+          },
+          {
+            "id": 93,
+            "name": "Atlas",
+            "lanes": [5],
+            "types": [5],
+            "counters": [34,18,87,94,108,38,15],
+            "counteredBy": [57,31],
+            "teamMates": [66,121]
+          },
+        {
+            "id": 94,
+            "name": "Popol",
+            "lanes": [1],
+            "types": [1],
+            "counters": [42,63,88,109,53,100],
+            "counteredBy": [56,8],
+            "teamMates": [28,98]
+          },
+          {
+            "id": 95,
+            "name": "Yu Zhong",
+            "lanes": [3],
+            "types": [3],
+            "counters": [74,45,87,20,29,108,16],
+            "counteredBy": [53,40],
+            "teamMates": [38,115]
+          },
+        {
+            "id": 96,
+            "name": "Luo Yi",
+            "lanes": [2],
+            "types": [2],
+            "counters": [94,34,117,99,76,15,23],
+            "counteredBy": [59,117],
+            "teamMates": [109,8]
+          },
+        {
+            "id": 97,
+            "name": "Benedetta",
+            "lanes": [3,4],
+            "types": [4],
+            "counters": [69,93,92,83,87,54,80],
+            "counteredBy": [74,106],
+            "teamMates": [32,41]
+          },
+        {
+            "id": 98,
+            "name": "Khaleed",
+            "lanes": [3],
+            "types": [3],
+            "counters": [27,119,103,122,21,33,115],
+            "counteredBy": [83,26],
+            "teamMates": [39,8]
+          },
+          {
+            "id": 99,
+            "name": "Barats",
+            "lanes": [5,3],
+            "types": [5],
+            "counters": [15,90,7,124,21,70,20],
+            "counteredBy": [9,31],
+            "teamMates": [102,55]
+          },
+          {
+            "id": 100,
+            "name": "Brody",
+            "lanes": [1],
+            "types": [1],
+            "counters": [70,8,43,42,59,109,113],
+            "counteredBy": [58,89],
+            "teamMates": [49,74]
+          },
+        {
+            "id": 101,
+            "name": "Yve",
+            "lanes": [2],
+            "types": [2],
+            "counters": [20,67,54,110,57,117,99,108],
+            "counteredBy": [113,3,8],
+            "teamMates": [19,41,93]
+          },
+          {
+            "id": 102,
+            "name": "Mathilda",
+            "lanes": [5],
+            "types": [6],
+            "counters": [107,86,49,92,79,23,57],
+            "counteredBy": [10,74],
+            "teamMates": [3,15]
+          },
+          {
+            "id": 103,
+            "name": "Paquito",
+            "lanes": [3],
+            "types": [3],
+            "counters": [87,83,48,69,8,23,18],
+            "counteredBy": [10,62],
+            "teamMates": [55,14]
+          },
+        {
+            "id": 104,
+            "name": "Gloo",
+            "lanes": [3],
+            "types": [5],
+            "counters": [54,32,121,119,20,91,61],
+            "counteredBy": [40,53],
+            "teamMates": [15,3]
+          },
+          {
+            "id": 105,
+            "name": "Beatrix",
+            "lanes": [1],
+            "types": [1],
+            "counters": [1,19,34,70,44,49],
+            "counteredBy": [15,84],
+            "teamMates": [78,93]
+          },
+        {
+            "id": 106,
+            "name": "Phoveus",
+            "lanes": [3],
+            "types": [3],
+            "counters": [110,89,97,98,103,120,26],
+            "counteredBy": [36,57,38],
+            "teamMates": [41,19,6]
+          },
+        {
+            "id": 107,
+            "name": "Natan",
+            "lanes": [1],
+            "types": [1],
+            "counters": [67,93,27,82,99,82,41],
+            "counteredBy": [3,15],
+            "teamMates": [32,28]
+          },
+        {
+            "id": 108,
+            "name": "Aulus",
+            "lanes": [3],
+            "types": [3],
+            "counters": [88,64,27,76,30,60,101,23],
+            "counteredBy": [10,89],
+            "teamMates": [55,101]
+          },
+          {
+            "id": 109,
+            "name": "Aamon",
+            "lanes": [4],
+            "types": [4],
+            "counters": [123,16,43,35,12,115,91],
+            "counteredBy": [2,117],
+            "teamMates": [14,112]
+          },
+          {
+            "id": 110,
+            "name": "Valentina",
+            "lanes": [2],
+            "types": [2],
+            "counters": [93,83,45,122,66,60,76],
+            "counteredBy": [21,24,69],
+            "teamMates": [92,93]
+          },
+        {
+            "id": 111,
+            "name": "Edith",
+            "lanes": [3,5],
+            "types": [5],
+            "counters": [73,46,15,117,95,16,108],
+            "counteredBy": [60,89],
+            "teamMates": [19,93]
+          },
+        {
+            "id": 112,
+            "name": "Floryn",
+            "lanes": [5],
+            "types": [6],
+            "counters": [76,48,88,87,68,59,20],
+            "counteredBy": [8,3],
+            "teamMates": [82,72]
+          },
+          {
+            "id": 113,
+            "name": "Yin",
+            "lanes": [3],
+            "types": [3],
+            "counters": [34,112,55,101,20,18,91],
+            "counteredBy": [117,77],
+            "teamMates": [102,14]
+          },
+        {
+            "id": 114,
+            "name": "Melissa",
+            "lanes": [1],
+            "types": [1],
+            "counters": [20,94,64,27,1,16],
+            "counteredBy": [115,5],
+            "teamMates": [6,19]
+          },
+          {
+            "id": 115,
+            "name": "Xavier",
+            "lanes": [2],
+            "types": [2],
+            "counters": [104,70,93,99,49,60,76],
+            "counteredBy": [97,21,24],
+            "teamMates": [92,93]
+          },
+        {
+            "id": 116,
+            "name": "Julian",
+            "lanes": [3],
+            "types": [3],
+            "counters": [76,44,81,62,59,91,64],
+            "counteredBy": [118,73],
+            "teamMates": [55,48]
+          },
+          {
+            "id": 117,
+            "name": "Fredrinn",
+            "lanes": [3],
+            "types": [3],
+            "counters": [15,118,7,3,20,66,15],
+            "counteredBy": [40,53],
+            "teamMates": [55,112]
+          },
+          {
+            "id": 118,
+            "name": "Joy",
+            "lanes": [3,4],
+            "types": [4],
+            "counters": [83,20,27,71,82,115,38],
+            "counteredBy": [74,78],
+            "teamMates": [55,49]
+          },
+          {
+            "id": 119,
+            "name": "Novaria",
+            "lanes": [2],
+            "types": [2],
+            "counters": [87,92,93,121,57,15,46],
+            "counteredBy": [3,21],
+            "teamMates": [105,18]
+          },
+        {
+            "id": 120,
+            "name": "Arlott",
+            "lanes": [3],
+            "types": [3],
+            "counters": [125,83,123,14,81,27,16],
+            "counteredBy": [72,117],
+            "teamMates": [41,93]
+          },
+        {
+            "id": 121,
+            "name": "Ixia",
+            "lanes": [1],
+            "types": [1],
+            "counters": [34,20,1,117,14,117,11],
+            "counteredBy": [3,109],
+            "teamMates": [117,11,93,38]
+          },
+          {
+            "id": 122,
+            "name": "Nolan",
+            "lanes": [4],
+            "types": [4],
+            "counters": [34,83,11,104,69,60,15],
+            "counteredBy": [72,117],
+            "teamMates": [6,41]
+          },
+        {
+            "id": 123,
+            "name": "Cici",
+            "lanes": [3],
+            "types": [3],
+            "counters": [2,72,49,117,97,19],
+            "counteredBy": [3,62],
+            "teamMates": [55,112]
+          },
+          {
+            "id": 124,
+            "name": "Chip",
+            "lanes": [5],
+            "types": [5],
+            "counters": [48,44,110,90,63,38,18,121],
+            "counteredBy": [99,6],
+            "teamMates": [28,60,75]
+          },
+        {
+            "id": 125,
+            "name": "Zhuxin",
+            "lanes": [2],
+            "types": [2],
+            "counters": [20,67,4,49,78,33,94],
+            "counteredBy": [3,17],
+            "teamMates": [123,71,70]
+          },
+        {
+            "id": 126,
+            "name": "Suyou",
+            "lanes": [3,4],
+            "types": [4],
+            "counters": [27,112,93,104,86,121,115],
+            "counteredBy": [114,77],
+            "teamMates": [14,6]
+          },
+        {
+            "id": 127,
+            "name": "Lukas",
+            "lanes": [3],
+            "types": [3],
+            "counters": [],
+            "counteredBy": [],
+            "teamMates": []
+        }
+    ],
+    "lanes": [
+        {
+            "1": "Gold"
+        },
+        {
+            "2": "Mid"
+        },
+        {
+            "3": "Exp"
+        },
+        {
+            "4": "Jungle"
+        },
+        {
+            "5": "Support"
+        }
+    ],
+    "types": [
+        {
+            "1": "Adc"
+        },
+        {
+            "2": "Mage"
+        },
+        {
+            "3": "Fighter"
+        },
+        {
+            "4": "Assassin"
+        },
+        {
+            "5": "Tank"
+        },
+        {
+            "6": "Support"
+        }
+    ]
+}
