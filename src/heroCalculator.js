@@ -24,12 +24,10 @@ const HeroCalculator = ({ myTeam, opposingTeam }) => {
     //TODO
     const calculateScore = (hero, myTeam, opposingTeam) => {
         let score = 0;
-        hero.id == 1 && console.log("hero:" + JSON.stringify(hero));
         // Rakip takımın counteredBy ve counters listesindeki etkileri
         opposingTeam.length > 0 && opposingTeam.forEach(selectedHero => {
             if (selectedHero != null) {
                 let teamHero = heroes.find(heroVal => heroVal.id === selectedHero.value);
-                hero.id == 1 && console.log("teamHero:" + JSON.stringify(teamHero));
 
                 if (hero.counteredBy.includes(teamHero.id)
                     || (teamHero.counters.includes(hero.id))) {
@@ -46,7 +44,6 @@ const HeroCalculator = ({ myTeam, opposingTeam }) => {
         myTeam.length > 0 && myTeam.forEach(selectedHero => {
             if (selectedHero != null) {
                 let teamHero = heroes.find(heroVal => heroVal.id === selectedHero.value);
-                hero.id == 1 && console.log("teamHero:" + JSON.stringify(teamHero));
 
                 if (hero.teamMates.includes(teamHero.id)
                     || (teamHero.teamMates.includes(hero.id))) {
@@ -54,10 +51,25 @@ const HeroCalculator = ({ myTeam, opposingTeam }) => {
                 }
             }
         });
-        hero.id == 1 && console.log("score:" + score);
 
         return score;
     };
+
+    const getTeamPower = (team) => {
+        let score = 0;
+        team.length > 0 && team.forEach(firstHeroVal => {
+            team.forEach(secondHeroVal => {
+                if (firstHeroVal != null && secondHeroVal != null) {
+                    let firstHero = heroes.find(heroVal => heroVal.id === firstHeroVal.value);
+
+                    if (firstHero.teamMates.includes(secondHeroVal.value)) {
+                        score += 1; // Kendi takımındaki teammates varsa +1 
+                    }
+                }
+            })
+        });
+        return score;
+    }
 
     const getBestHeroes = () => {
         const laneScores = {};
@@ -95,8 +107,8 @@ const HeroCalculator = ({ myTeam, opposingTeam }) => {
         <div>
             {/* Her lane için en iyi 5 hero'yu listele */}
             <h5>Best Hero Suggestions</h5>
+            <h5>Team Power : {getTeamPower(myTeam)}</h5>
             {
-
                 <table style={{ borderCollapse: "collapse", width: "100%" }}>
                 <thead>
                   <tr>

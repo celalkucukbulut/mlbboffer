@@ -90,7 +90,8 @@ const HeroSelector = ({ onSelect }) => {
                 isSearchable={true}
                 placeholder="Select a hero..."
                 styles={customStyles}
-            />
+                menuPosition="fixed"
+                />
         </div>
     );
 };
