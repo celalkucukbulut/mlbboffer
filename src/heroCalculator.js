@@ -62,7 +62,7 @@ const HeroCalculator = ({ myTeam, opposingTeam }) => {
                 if (firstHeroVal != null && secondHeroVal != null) {
                     let firstHero = heroes.find(heroVal => heroVal.id === firstHeroVal.value);
 
-                    if (firstHero.teamMates.includes(secondHeroVal.value)) {
+                    if (firstHero && firstHero.teamMates.includes(secondHeroVal.value)) {
                         score += 1; // Kendi takımındaki teammates varsa +1 
                     }
                 }
@@ -106,36 +106,35 @@ const HeroCalculator = ({ myTeam, opposingTeam }) => {
     return (
         <div>
             {/* Her lane için en iyi 5 hero'yu listele */}
-            <h5>Best Hero Suggestions</h5>
             <h5>Team Power : {getTeamPower(myTeam)}</h5>
-            {
-                <table style={{ borderCollapse: "collapse", width: "100%" }}>
-                <thead>
-                  <tr>
-                    {Object.keys(bestHeroes).map((lane, index) => (
-                      <th key={index} style={{ border: "1px solid black", padding: "8px" }}>
-                        {lanes.find(item => item[lane])[lane]}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    {Object.keys(bestHeroes).map((lane) => (
-                      <td key={lane} style={{ border: "1px solid black", padding: "8px" }}>
-                        {bestHeroes[lane].slice(0, 5).map((heroItem, index) => (
-                          <div key={index}>
-                            {heroItem.hero.name},{heroItem.score}
-                          </div>
-                        ))}
-                      </td>
-                    ))}
-                  </tr>
-                </tbody>
-              </table>
-              
-              
-           }
+                {
+                <div style={{ overflowX: "auto", margin: "2px 0" }}>
+                    <table style={{ borderCollapse: "collapse", width: "100%" }}>
+                        <thead>
+                            <tr>
+                                {Object.keys(bestHeroes).map((lane, index) => (
+                                    <th key={index} style={{ border: "1px solid black", padding: "1px" }}>
+                                        {lanes.find(item => item[lane])[lane]}
+                                    </th>
+                                ))}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                {Object.keys(bestHeroes).map((lane) => (
+                                    <td key={lane} style={{ border: "1px solid black", padding: "1px",textAlign:"left" }}>
+                                        {bestHeroes[lane].slice(0, 5).map((heroItem, index) => (
+                                            <div key={index}>
+                                                {heroItem.score}-{heroItem.hero.name}
+                                            </div>
+                                        ))}
+                                    </td>
+                                ))}
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            }
         </div>
     );
 };

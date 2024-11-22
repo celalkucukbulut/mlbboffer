@@ -6,14 +6,14 @@ function App() {
 
     return (
         <div className="App">
-            <header className="App-header">
-                <div style={{ display: 'inline-block' }}>
-                
-                    <div style={{ flex: 1 }}>
+            <header>
+                <div>
+
+                    <div>
                         <Teams />
                     </div>
-                    
-                { /*
+
+                    { /*
                     <div style={{ flex: 1 }}>
                         <DataGenerator />
                     </div>

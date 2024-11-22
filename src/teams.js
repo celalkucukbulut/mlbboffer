@@ -2,17 +2,31 @@ import React, { useState } from 'react';
 import Team from './team';
 import HeroCalculator from './heroCalculator';
 
+const styles = {
+    container: {
+        display: 'flex',
+        flexDirection: 'row', // Varsayılan: yan yana
+        padding: '2px',
+        gap: '2px', // Elemanlar arasındaki boşluk
+        flexWrap: 'wrap', // Ekran daraldığında içerik sarılır
+    },
+    '@media (max-width: 768px)': {
+        container: {
+            flexDirection: 'column', // Mobilde üst üste
+        },
+    },
+};
+
+
 const Teams = () => {
     const [team1Selections, setTeam1Selections] = useState([]);
     const [team2Selections, setTeam2Selections] = useState([]);
-    const [showHeroCalculator, setShowHeroCalculator] = useState(true);
+    const [reset, setReset] = useState(false);
 
-    const handleButtonClick = () => {
-        setShowHeroCalculator(!showHeroCalculator);
-    };
     // İlk TeamComponent için seçimleri takip eden fonksiyon
     const handleTeam1SelectionsChange = (selections) => {
         setTeam1Selections(selections);
+
     };
 
     // İkinci TeamComponent için seçimleri takip eden fonksiyon
@@ -20,38 +34,50 @@ const Teams = () => {
         setTeam2Selections(selections);
     };
 
+    const resetSelections = () => {
+        setReset(!reset);
+
+    };
+
     var component = <div>
-    <h3>Teams Overview</h3>
-    <div style={{ display: 'flex' }}>
-        <div style={{ flex: 1, padding: '20px'  }}>
-            <Team
-                title="My Team"
-                onSelectionsChange={handleTeam1SelectionsChange}
-            />
-        </div>
-        <div style={{ flex: 1, padding: '20px'  }}>
-            <HeroCalculator myTeam={team1Selections} opposingTeam={team2Selections} />
+        <div>
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <h4>Hero Calculator</h4>
+                <div style={styles.container}>
+                    <Team
+                        reset={reset}
+                        title="My Team"
+                        onSelectionsChange={handleTeam1SelectionsChange}
+                    />
+                    <HeroCalculator
+                        reset={reset}
+                        myTeam={team1Selections}
+                        opposingTeam={team2Selections}
+                    />
+                </div>
+                <div style={styles.container}>
+                    <Team
+                        reset={reset}
+                        title="Opposing Team"
+                        onSelectionsChange={handleTeam2SelectionsChange}
+                    />
+                    <HeroCalculator
+                        reset={reset}
+                        myTeam={team2Selections}
+                        opposingTeam={team1Selections}
+                    />
+                </div>
+                <div style={styles.container}>
+                    <button onClick={resetSelections}>Reset</button>
+                </div>
+            </div>
+
         </div>
     </div>
-    <div style={{ display: 'flex' }}>
-        <div style={{ flex: 1 , padding: '20px' }}>
-            <Team
-                title="Opposing Team"
-                onSelectionsChange={handleTeam2SelectionsChange}
-            />
-        </div>
-        <div style={{ flex: 1 , padding: '20px' }}>
-            <HeroCalculator myTeam={team2Selections} opposingTeam={team1Selections} />
-        </div>
-    </div>
-</div>
     return (
         <div>
-        <button onClick={handleButtonClick}>
-            Hero Calculator
-        </button>
-        {showHeroCalculator && component}
-    </div>
+            {component}
+        </div>
     );
 };
 

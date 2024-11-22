@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Select from 'react-select';
 
-const HeroSelector = ({ onSelect }) => {
+const HeroSelector = ({ reset, onSelect }) => {
     const [options, setOptions] = useState([]);
     const [selectedOption, setSelectedOption] = useState(null);
+    const prevReset = useRef();
 
     useEffect(() => {
         fetch('/data.json')
@@ -50,14 +51,17 @@ const HeroSelector = ({ onSelect }) => {
             .catch(error => console.error("JSON verisi yüklenemedi:", error));
     }, []);
 
+    useEffect(() => {
+        if (prevReset.current !== reset) {
+            handleChange(null); // Seçimi temizle
+        }
+        prevReset.current = reset;
+
+    }, [reset]);
+
     const handleChange = (selected) => {
         setSelectedOption(selected);
         onSelect(selected);  // Seçilen değeri üst bileşene gönder
-    };
-
-    const handleDelete = () => {
-        setSelectedOption(null);
-        onSelect(null);  // Seçilen değeri üst bileşene gönder
     };
 
     const customStyles = {
@@ -81,7 +85,7 @@ const HeroSelector = ({ onSelect }) => {
     };
 
     return (
-        <div  style={{ display: 'flex' }}>
+        <div style={{ display: 'flex' }}>
             <Select
                 options={options}
                 value={selectedOption}
@@ -91,7 +95,7 @@ const HeroSelector = ({ onSelect }) => {
                 placeholder="Select a hero..."
                 styles={customStyles}
                 menuPosition="fixed"
-                />
+            />
         </div>
     );
 };
